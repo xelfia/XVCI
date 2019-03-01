@@ -37,9 +37,11 @@
 |```print(target)```|Sub1|
 
 ## Licenses / Dependencies
-* VCI : https://github.com/virtual-cast/VCI
+
+All of these are included in XVCI project.
+* VCI v0.15 : https://github.com/virtual-cast/VCI
 * UniVRM : https://github.com/dwango/UniVRM
-* MoonSharp : https://github.com/xanathar/moonsharp/
+* MoonSharp 2.0.0.0 : https://github.com/xanathar/moonsharp/
 
 # References
 * Official VirtualCast Wiki : https://virtualcast.jp/wiki/doku.php
