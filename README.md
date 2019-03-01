@@ -50,7 +50,7 @@ All of these are included in XVCI project.
 
 # References
 * Official VirtualCast Wiki : https://virtualcast.jp/wiki/doku.php
-* MonoSharp : http://www.moonsharp.org/
+* MoonSharp : http://www.moonsharp.org/
 
 # VCI Code Examples
 * https://qiita.com/sakano/items/adc88174a7dfd32ae248
