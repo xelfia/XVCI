@@ -3,7 +3,7 @@
   * As toolkits (projects), `VCI` and `XVCI` are available on `Unity`
   * XVCI tested with `Unity 2018.3.6f1`
 
-# What is XVCI
+## What is XVCI
 * Note that almost VCI features are not implemented on this.
 * This is only implemented based on official and/or third-party VCI documents.
 
@@ -48,9 +48,9 @@ All of these are included in XVCI project.
 * UniVRM: https://github.com/dwango/UniVRM
 * MoonSharp 2.0.0.0: https://github.com/xanathar/moonsharp/
 
-# References
+## References
 * Official VirtualCast Wiki : https://virtualcast.jp/wiki/doku.php
 * MoonSharp : http://www.moonsharp.org/
 
-# VCI Code Examples
+## VCI Code Examples
 * https://qiita.com/sakano/items/adc88174a7dfd32ae248
