@@ -1,6 +1,6 @@
 # XVCI
 * X.VCI: A bit experimental runtime for VCI
-  * As toolkits (projects), VCI and XVCI can run on `Unity`
+  * As toolkits (projects), `VCI` and `XVCI` are available on `Unity`
   * XVCI tested with `Unity 2018.3.6f1`
 
 # What is XVCI
