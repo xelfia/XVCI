@@ -46,11 +46,11 @@
 All of these are included in XVCI project.
 * VCI v0.15: https://github.com/virtual-cast/VCI
 * UniVRM: https://github.com/dwango/UniVRM
-* MoonSharp 2.0.0.0: https://github.com/xanathar/moonsharp/
+* MoonSharp 2.0.0.0: https://github.com/xanathar/moonsharp
 
 ## References
 * Official VirtualCast Wiki : https://virtualcast.jp/wiki/doku.php
-* MoonSharp : http://www.moonsharp.org/
+* MoonSharp : http://www.moonsharp.org
 
 ## VCI Code Examples
 * https://qiita.com/sakano/items/adc88174a7dfd32ae248
