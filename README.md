@@ -1,10 +1,9 @@
 # XVCI
 * X.VCI: A bit experimental runtime for VCI
-  * VCI and XVCI can run on `Unity`
+  * As toolkits (projects), VCI and XVCI can run on `Unity`
   * XVCI tested with `Unity 2018.3.6f1`
 
 # What is XVCI
-
 * Note that almost VCI features are not implemented on this.
 * This is only implemented based on official and/or third-party VCI documents.
 
@@ -38,13 +37,11 @@
 |```print(target)```|Sub1|
 
 ## Licenses / Dependencies
-
 * VCI : https://github.com/virtual-cast/VCI
 * UniVRM : https://github.com/dwango/UniVRM
 * MoonSharp : https://github.com/xanathar/moonsharp/
 
 # References
-
 * Official VirtualCast Wiki : https://virtualcast.jp/wiki/doku.php
 * MonoSharp : http://www.moonsharp.org/
 
