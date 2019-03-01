@@ -1,10 +1,13 @@
 # XVCI
 * X.VCI: A bit experimental runtime for VCI
+* VCI and XVCI can run on Unity
 
-# What?
+* Tested with `Unity 2018.3.6f1`
 
-Note that almost VCI features are not implemented on this.
-This is only implemented based on official and/or third-party VCI documents.
+# What is XVCI
+
+* Note that almost VCI features are not implemented on this.
+* This is only implemented based on official and/or third-party VCI documents.
 
 > VirtualCast is a practical VCI enviromnent I know.
 > I have no VR devices currently (2019-03-01), although VitualCast required it.
