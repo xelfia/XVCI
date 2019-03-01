@@ -13,9 +13,7 @@ namespace VCI {
 		}
 		public static void ToRuntime(GameObject root, VCIObject o) {
 			if (o.Scripts != null) {
-				foreach (var script in o.Scripts) {
-					var vci = root.AddComponent<VCIXRuntimeItem>();
-				}
+				root.AddComponent<VCIXRuntimeItem>();
 			}
 		}
 	}
