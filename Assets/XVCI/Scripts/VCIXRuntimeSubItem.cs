@@ -12,5 +12,11 @@ namespace VCI {
 			var runtime = GetComponentInParent<VCIXRuntimeItem>();
 			runtime.OnGrab(this);
 		}
+		[ContextMenu("Ungrab")]
+		[MoonSharpHidden]
+		public void OnUngrab() {
+			var runtime = GetComponentInParent<VCIXRuntimeItem>();
+			runtime.OnUngrab(this);
+		}
 	}
 }
