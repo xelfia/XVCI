@@ -14,8 +14,8 @@ This is only implemented based on official and/or third-party VCI documents.
 
 1. Open `Runtime Loader` scene
 2. Select `Test Item original` on `Hierarchy` window
-3. Export it to `VCI` file via menu `VRM` / `UniVCI-0.15` / `Export VCI`.
-4. Play the scene.
+3. Export it to `VCI` file via menu `VRM` / `UniVCI-0.15` / `Export VCI`
+4. Play the scene
 5. Press `Open` button on `Game View`
 6. Select the file (of 2)
 7. You can see logs on `Console` window
@@ -26,7 +26,7 @@ This is only implemented based on official and/or third-party VCI documents.
 |```print(vci.assets.GetSubItem("Sub1").name);```|Sub1|
 
 8. Select `Sub1` inside `_root_` on `Hierarchy` window
-9. Click context menu `⚙` of VCIX Runtime Sub Item on `Inspector` window
+9. Click context menu `⚙` of `VCIX Runtime Sub Item` on `Inspector` window
 10. Select `Grab` to test `onGrab` event
 11. You can see logs on `Console` window
 
