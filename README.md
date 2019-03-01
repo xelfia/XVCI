@@ -16,7 +16,7 @@
 * What is VCI?
 * VCI can have Lua scripts. What can we do?
 
-## Trial on Editor
+## Trial on Unity Editor
 
 1. Open `Runtime Loader` scene
 2. Select `Test Item original` on `Hierarchy` window
