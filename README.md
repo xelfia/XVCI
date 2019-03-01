@@ -11,6 +11,11 @@
 > * I have no VR devices currently `2019-03-01`, although VitualCast requires it.
 > * So I have no experiences about VirtualCast and actual VCI behaviors.
 
+## Motivations
+
+* What is VCI?
+* VCI can have Lua scripts. What can we do?
+
 ## Trial on Editor
 
 1. Open `Runtime Loader` scene
@@ -21,7 +26,7 @@
 6. Select the file (of 2)
 7. You can see logs on `Console` window
 
-|from: LUA script line|to: Console output|
+|from: Lua script line|to: Console output|
 |--|--|
 |```print(vci.assets);```|VCI.VCIXAssets|
 |```print(vci.assets.GetSubItem("Sub1").name);```|Sub1|
@@ -31,7 +36,7 @@
 10. Select `Grab` to test `onGrab` event
 11. You can see logs on `Console` window
 
-|from: LUA script line|to: Console output|
+|from: Lua script line|to: Console output|
 |--|--|
 |```print("Grab : "..GrabCount)```|Grab : 1|
 |```print(target)```|Sub1|
