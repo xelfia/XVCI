@@ -62,7 +62,7 @@ namespace VCI {
 		public VCIXStudio() {
 			shared = new VCIXShared();
 		}
-		public VCIXShared shared;
+		public readonly VCIXShared shared;
 	}
 	[MoonSharpUserData]
 	public class VCIXShared {
