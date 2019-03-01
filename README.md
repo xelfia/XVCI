@@ -22,7 +22,7 @@
 2. Select `Test Item original` on `Hierarchy` window
 3. Export it to `VCI` file via menu `VRM` / `UniVCI-0.15` / `Export VCI`
 4. Play the scene
-5. Press `Open` button on `Game View`
+5. Press `Open` button on `Game` window
 6. Select the file (of 2)
 7. You can see logs on `Console` window
 
