@@ -1,8 +1,7 @@
 # XVCI
 * X.VCI: A bit experimental runtime for VCI
-* VCI and XVCI can run on `Unity`
-
-* Tested with `Unity 2018.3.6f1`
+** VCI and XVCI can run on `Unity`
+** XVCI tested with `Unity 2018.3.6f1`
 
 # What is XVCI
 
