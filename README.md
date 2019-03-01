@@ -8,9 +8,9 @@
 * Note that almost VCI features are not implemented on this.
 * This is only implemented based on official and/or third-party VCI documents.
 
-> VirtualCast is a practical VCI enviromnent I know.
-> I have no VR devices currently `2019-03-01`, although VitualCast requires it.
-> So I have no experiences about VirtualCast and actual VCI behaviors.
+> * VirtualCast is a practical VCI enviromnent I know.
+> * I have no VR devices currently `2019-03-01`, although VitualCast requires it.
+> * So I have no experiences about VirtualCast and actual VCI behaviors.
 
 ## Trial on Editor
 
