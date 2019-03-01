@@ -14,9 +14,9 @@ This is only implemented based on official and/or third-party VCI documents.
 
 1. Open `Runtime Loader` scene
 2. Select `Test Item original` on `Hierarchy` window
-3. Export it to VCI file via menu `VRM` / `UniVCI-0.15` / `Export VCI`.
+3. Export it to `VCI` file via menu `VRM` / `UniVCI-0.15` / `Export VCI`.
 4. Play the scene.
-5. Press 'Open' on `Game View`
+5. Press `Open` button on `Game View`
 6. Select the file (of 2)
 7. You can see logs on `Console` window
 
