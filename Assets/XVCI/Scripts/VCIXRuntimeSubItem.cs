@@ -18,5 +18,9 @@ namespace VCI {
 			var runtime = GetComponentInParent<VCIXRuntimeItem>();
 			runtime.OnUngrab(this);
 		}
+		public Quaternion GetLocalRotation() =>
+			transform.localRotation;
+		public void SetLocalRotation(Quaternion value)
+			=> transform.localRotation = value;
 	}
 }

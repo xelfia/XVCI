@@ -1,6 +1,7 @@
 ﻿// © 2019 XELF
 
 using MoonSharp.Interpreter;
+using System;
 using System.Linq;
 using UnityEngine;
 
@@ -15,7 +16,6 @@ namespace VCI {
 			assets = new VCIXAssets(this);
 			studio = new VCIXStudio();
 		}
-
 		[MoonSharpHidden]
 		public void Start() {
 			vciObject = GetComponent<VCIObject>();
@@ -83,7 +83,14 @@ namespace VCI {
 			this.runtime = runtime;
 			script = new Script();
 			script.Globals["vci"] = this;
-			script.DoString(vciScript.source);
+			script.Globals["Quaternion"] = typeof(Quaternion);
+			try {
+				script.DoString(vciScript.source);
+			} catch (ScriptRuntimeException ex) {
+				Debug.LogError(ex.DecoratedMessage, runtime);
+			} catch (Exception ex) {
+				Debug.LogException(ex, runtime);
+			}
 			update = script.Globals["update"];
 			onGrab = script.Globals["onGrab"];
 			onUngrab = script.Globals["onUngrab"];
@@ -96,7 +103,6 @@ namespace VCI {
 				script.Call(update);
 			}
 		}
-
 		[MoonSharpHidden]
 		public void OnGrab(VCIXRuntimeSubItem target) {
 			if (onGrab != null)
