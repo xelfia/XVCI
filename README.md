@@ -54,3 +54,5 @@ All of these are included in XVCI project.
 
 ## VCI Code Examples
 * https://qiita.com/sakano/items/adc88174a7dfd32ae248
+## Functions on VirtualCast (?)
+* https://gist.github.com/oocytanb/1c017a50df8b14a64c73f54055c4e577
